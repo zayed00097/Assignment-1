@@ -1,0 +1,303 @@
+/* font style */
+.azeret-mono-normal {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  /* shared style  */
+  .section-title{
+      color: rgb(13, 19, 33);
+      font-family: Azeret Mono;
+      font-size: 32px;
+      font-weight: 800;
+      line-height: 37px;
+      letter-spacing: 0%;
+      text-align: center;
+  }
+  .section-description{
+      color: rgb(13, 19, 33);
+      font-family: Azeret Mono;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 26px;
+      letter-spacing: 0%;
+      text-align: center;
+      max-width: 800px;
+      margin: 40px auto;
+  }
+  
+  .main-width{
+      width: 1000px;
+      margin: 80px auto;
+  }
+  
+  html{
+      scroll-behavior: smooth;
+  }
+  
+  
+  
+  
+  
+  /* header style */
+  .banner{
+      background-image: url(../B10A1-Challenge-Begins/assets/Hero-bg.png);
+      text-align: center;
+      padding-bottom:44px;   
+      padding-top:20px;   
+      
+  }  
+  .banner-content{
+      max-width: 990px;
+      margin: 25px 220px;
+  }
+  .header-title{
+      color: rgb(13, 19, 33);
+      font-family: Azeret Mono;
+      font-size: 48px;
+      font-weight: 800;
+      line-height: 68px;
+      letter-spacing: 0%;
+      text-align: center;
+  }
+  .header-description{
+      color: rgb(13, 19, 33);
+      font-family: Azeret Mono;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 26px;
+      letter-spacing: 0%;
+      text-align: center;
+      margin-bottom: 30px;
+  }
+  .contact-btn{
+      border-radius: 8px;
+      background: rgb(13, 19, 33);
+      padding: 21px 24px 21px 24px;
+  }
+  .contact-btn a{
+      color: rgb(255, 255, 255);
+      font-family: Azeret Mono;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 23px;
+      letter-spacing: 0%;
+      text-align: center;
+      text-decoration: none;
+  }
+  
+  /* web-dev-section style  */
+  .web-dev{
+      padding: 80px 97px 80px 97px;
+      border-radius: 16px;
+      background: rgba(13, 19, 33, 0.02);
+      
+  }
+  .title-box{
+      width: 852px;
+      height: 115px;    
+      margin: 30px auto;
+  }
+  .blog-box{
+      display: flex;
+      width: 946px;
+      padding: 48px;
+      border-radius: 16px;
+      background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+      gap: 100px;
+      margin-top: 30px;
+  }
+  .text-title{
+      color: rgba(13, 19, 33, 0.7);
+      font-family: Azeret Mono;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 36px;
+      letter-spacing: 0%;
+      text-align: left;
+      width: 440px;
+      height: 72px;
+  }
+  .text-description{
+      color: rgb(13, 19, 33);
+      font-family: Azeret Mono;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 26px;
+      letter-spacing: 0%;
+      text-align: left;
+  }
+  .learn-more-button{
+      border: 1px solid rgb(13, 19, 33);
+      opacity: 0.7;
+      padding: 12px 20px 12px 20px;
+      color: rgb(13, 19, 33);
+      font-family: Azeret Mono;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 23px;
+      letter-spacing: 0%;
+      text-align: center;
+      background-color: transparent;
+      margin-top: 25px;
+  }
+  /* inspiration styles */
+  .inspiration-section{
+      text-align: center;
+  }
+  /* .inspiration-section .section-description{
+      max-width: 800px;
+      margin: 40px auto;
+  } */
+  .iframe-holder{
+      display: flex;
+      justify-content: center;
+      margin:50px 0px;
+  }
+  .inspiration-vdo{
+      width: 1110px;
+      height: 550px;
+      box-sizing: border-box;
+      border-radius: 16px;    
+      overflow: hidden;
+      margin-top: 32px;     
+  }
+  .iframe-border{
+      border: 1px solid rgba(13, 19, 33, 0.2);
+      border-radius: 16px;
+      width: 1174px;
+      height: 616px;
+      margin: 0px;    
+  }
+  
+  /* target section styles */
+  /* .target-section .section-description{
+      max-width: 800px;
+      margin: 40px auto;
+  } */
+  
+  /* card styles */
+  .box-one{
+      background: rgba(255, 76, 30, 0.05);
+  }
+  .box-two{
+      background: rgba(0, 76, 232, 0.05);
+  }
+  .box-three{
+      background: rgba(255, 223, 0, 0.05);
+  }
+  
+  
+  .card-holder{
+      display: flex;
+      gap: 24px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-bottom: 50px;
+  }
+  .card-box{
+      text-align: left;
+      border-radius: 16px;
+      padding: 38px;
+      width: 300px;
+      height: 200px;
+  }
+  .card-description{
+      text-align: left;
+      margin-top: 30px;
+  
+      
+  }
+  .card-title{
+      color: rgb(13, 19, 33);
+      font-family: Azeret Mono;
+      font-size: 22px;
+      font-weight: 800;
+      letter-spacing: 0%;
+      text-align: left;
+      
+  }
+  
+  /* support section styles */
+  .support{
+      padding: 64px;
+      border-radius: 16px;
+      background-image:
+      linear-gradient(to bottom, rgba(0,0,0, 0.5), rgba(0,0,0, 0.5)),
+      url(../B10A1-Challenge-Begins/assets/handshake.jpg);
+      background-position: center;
+      width: 1045px;
+      margin: 50px auto;
+  }
+  
+  .support .section-title{
+      padding-top: 0px;
+      margin-top: 0px;
+  }
+  
+  .support form{
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+  }
+  
+  input[type="text"]{
+      padding: 19px 350px 19px 20px;
+      border-radius: 8px;
+      color: rgba(13, 19, 33, 0.4);
+      font-family: Azeret Mono;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 19px;
+      letter-spacing: 0%;
+      text-align: center;
+  
+  }
+  input[type="submit"]{
+      padding: 20px 25px;
+      color: rgb(13, 19, 33);
+      font-family: Azeret Mono;
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 23px;
+      letter-spacing: 0%;
+      text-align: center;
+      background: rgb(255, 255, 255);
+      border-radius: 8px;
+  
+  }
+  .support .section-title,.section-description{
+      color: white;
+  }
+  
+  /* footer styles */
+  #foot-section{
+      background-color: rgba(13, 19, 33, 0.03);
+      padding: 30px 0;
+  }
+  .foot{
+      display: flex;
+      justify-content: space-between;
+      width: 1180px;
+      /* height: 100px; */
+      margin: 0 auto;
+      
+      
+  }
+  .foot-icons{
+      display: flex;
+      gap: 24px;
+      justify-content: center;
+      align-items: center;
+  }
+  .foot-icons img{
+      width: 40px;
+      height: 40px;
+  }
+  .footer-info{
+      font-size: 20px;
+      font-weight: 600;
+      color: rgb(13, 19, 33);
+  }
